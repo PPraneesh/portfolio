@@ -1,0 +1,143 @@
+body{
+  background-color: #222129;
+  color: #fff;
+  font-family: 'Fira Code', Monaco, Consolas, Ubuntu Mono, monospace;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+/* colors */
+.green{
+  background: #78E2A0;
+}
+.yellow{
+  background: #FFA86A;
+}
+.red{
+  background: #FF6266;
+}
+.green_color{
+  color: #78E2A0;
+}
+.yellow_color{
+  color: #FFA86A;
+}
+.red_color{
+  color: #FF6266;
+}
+.repeat_yellow{
+  content: '';
+  background: repeating-linear-gradient(90deg, #FFA86A, #FFA86A 2px, transparent 0, transparent 10px);
+  flex-grow: 1;
+  line-height: 1rem;
+  margin-left: 2px;
+}
+.repeat_red{
+  content: '';
+  background: repeating-linear-gradient(90deg, #FF6266, #FF6266 2px, transparent 0, transparent 10px);
+  flex-grow: 1;
+  line-height: 1rem;
+  margin-left: 2px;
+}
+.repeat_green{
+  content: '';
+  background: repeating-linear-gradient(90deg, #78E2A0, #78E2A0 2px, transparent 0, transparent 10px);
+  flex-grow: 1;
+  line-height: 1rem;
+  margin-left: 2px;
+}
+/* colors */
+a{
+  color: #fff;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+.body{
+  max-width: 750px;
+  margin: 0 auto;
+  padding:3rem ;
+}
+.head{
+    display: flex;
+    align-items: center;
+  } 
+.logo{
+  color: #222129;
+  padding: 0.5rem;
+  width:fit-content;
+  max-width: 100%;
+}
+.list{
+  display: flex;  
+  padding: 0;
+}
+.list > a{
+  margin-right: 1rem;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #222129;
+  border: 1px solid #fff;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: #fff;
+  padding: 0.8rem 1rem;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  text-decoration: underline;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+.hello{
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 1px solid #FFA86A;
+}
+
+.hello> h1{
+  margin: 0.5rem;
+}
+.code{
+  background-color: rgba(255,168,106,0.2);
+  color:#FFA86A;
+  padding: 2px 3px; 
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  margin-top: 2rem;
+}
+.post-title{
+  border-bottom: 3px dotted;
+  margin-bottom: 0;
+}
+.post-title:after {
+  content: '';
+  border-bottom: 3px dotted;
+  width: 100%;
+  display: block;
+  margin-bottom : 3px;
+}
+.post{
+  margin-bottom: 4rem;
+}
+@media screen and (max-width: 650px) {
+  .body{
+    padding:1rem;
+  }
+  li{
+    margin-right: 0.8rem;
+  }
+  .list > a{
+    margin-right: 0.8rem;
+  }
+}
+
