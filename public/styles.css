@@ -24,6 +24,15 @@ body{
 .red_color{
   color: #FF6266;
 }
+.green_Bcolor{
+  border:1px solid #78E2A0;
+}
+.yellow_Bcolor{
+  border:1px solid #FFA86A;
+}
+.red_Bcolor{
+  border:1px solid #FF6266;
+}
 .repeat_yellow{
   content: '';
   background: repeating-linear-gradient(90deg, #FFA86A, #FFA86A 2px, transparent 0, transparent 10px);
@@ -109,6 +118,10 @@ a:hover{
   color:#FFA86A;
   padding: 2px 3px; 
 }
+.project{
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  padding-bottom: 2rem;
+}
 .footer{
   display: flex;
   flex-direction: column;
@@ -128,6 +141,16 @@ a:hover{
 }
 .post{
   margin-bottom: 4rem;
+}
+.buttons{
+  background-color: #222129;
+  color: #fff;
+  padding: 0.5rem 0.45rem;
+  font-size: 1rem;
+  font-family: 'Fira Code', Monaco, Consolas, Ubuntu Mono, monospace;
+}
+.buttons:hover{
+  text-decoration: underline;
 }
 @media screen and (max-width: 650px) {
   .body{
