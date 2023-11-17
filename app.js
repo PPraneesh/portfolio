@@ -21,6 +21,11 @@ var projectDetails= [
         description:'This is a simple web-based chatbot for providing cybersecurity guidance and answering security-related questions in real-time. It uses the GPT-3.5 Turbo model from OpenAI to generate responses to user inputs.',
         linkFiles:'https://github.com/PPraneesh/ChatBot',
         linkProject:''
+    },{
+        name:'EXPENSE TRACKER',
+        description:'This project is an Expense Tracker, designed to help users manage and track their expenses and income. The application provides a user-friendly interface for adding new expenses, viewing a summary of total income, total expenses, and current balance. It also allows users to delete specific expenses from the list.',
+        linkFiles:'https://github.com/PPraneesh/expenseTracker',
+        linkProject:'https://ppraneesh.github.io/expenseTracker/'
     }
 ]
 
