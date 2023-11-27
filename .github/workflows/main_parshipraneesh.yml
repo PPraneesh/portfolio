@@ -59,4 +59,4 @@ jobs:
           app-name: 'parshipraneesh'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4C45CC9225D645E4B599C4861847F68B }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3054094B6F8F4BE8B04FF57B0BA53AC7 }}
