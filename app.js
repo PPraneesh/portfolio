@@ -13,19 +13,24 @@ var projectDetails= [
         linkProject:'https://ppraneesh.github.io/SpotifyDuplicates/'
     },{
         name:'The A-Z Proj',
-        description:'This project is a replica of the popular e-commerce platform Amazon, built using Node.js, Express.js, EJS, CSS, and HTML. It aims to showcase various functionalities commonly found on e-commerce websites.',
+        description:'Explore my Amazon replica, a Node.js and Express.js marvel with EJS, CSS, and HTML. Unveil diverse e-commerce functionalities in this concise showcase of innovation. Welcome to an immersive online shopping experience!',
         linkFiles:'https://github.com/PPraneesh/The_A-Z_Proj',
         linkProject:'https://a-z-project.glitch.me/'
     },{
         name:'CYBER-SECURITY CHATBOT',
         description:'This is a simple web-based chatbot for providing cybersecurity guidance and answering security-related questions in real-time. It uses the GPT-3.5 Turbo model from OpenAI to generate responses to user inputs.',
         linkFiles:'https://github.com/PPraneesh/ChatBot',
-        linkProject:''
+        linkProject:'https://parshipraneesh.pythonanywhere.com/'
     },{
         name:'EXPENSE TRACKER',
-        description:'This project is an Expense Tracker, designed to help users manage and track their expenses and income. The application provides a user-friendly interface for adding new expenses, viewing a summary of total income, total expenses, and current balance. It also allows users to delete specific expenses from the list.',
+        description:'Effortlessly manage expenses with my user-friendly Expense Tracker. Track income, expenses, and balance, and delete entries seamlessly for a streamlined financial overview.',
         linkFiles:'https://github.com/PPraneesh/expenseTracker',
         linkProject:'https://ppraneesh.github.io/expenseTracker/'
+    },{
+        name:'PORTFOLIO',
+        description:'Discover my skills in a sleek portfolio built with EJS, Node.js, CSS, and JavaScript. Explore engaging projects, dive into my expertise, and connect for opportunities. Your gateway to my creative and technical world!',
+        linkFiles:'https://github.com/PPraneesh/portfolio',
+        linkProject:'https://parshipraneesh.me'
     }
 ]
 
