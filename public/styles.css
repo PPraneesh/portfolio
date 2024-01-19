@@ -152,6 +152,9 @@ a:hover{
 .buttons:hover{
   text-decoration: underline;
 }
+.fname{
+  color: #888888cd;
+}
 @media screen and (max-width: 650px) {
   .body{
     padding:1rem;
