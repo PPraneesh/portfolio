@@ -35,6 +35,10 @@ window.addEventListener('resize', () => {
     }
   }
 });
+document.querySelector('.playground').addEventListener('touchmove', function(e) {
+  e.preventDefault();
+}, { passive: false });
+
 function draw() {
   background(34, 33, 41)
   for(let i=0;i<cols;i++){
